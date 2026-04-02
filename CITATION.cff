@@ -5,6 +5,11 @@ title: >-
 message: >-
   If you use this software, please cite it using the metadata from this file.
 type: software
+references:
+  - type: data
+    title: "CSV Data for 'What's in the latent space? Exploring coupled tropical
+    Pacific variability within a Multi-branch β -Variational Autoencoder'"
+    doi: 10.5281/zenodo.19390030
 authors:
   - given-names: Emily F.
     family-names: Wisinski
