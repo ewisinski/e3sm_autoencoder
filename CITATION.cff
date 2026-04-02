@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+title: >-
+  What's in the latent space? Exploring coupled tropical Pacific variability
+  within a Multi-branch beta-Variational Autoencoder
+message: >-
+  If you use this software, please cite it using the metadata from this file.
+type: software
+authors:
+  - given-names: Emily F.
+    family-names: Wisinski
+    email: ewisinsk@umd.edu
+    affiliation: University of Maryland
+  - given-names: Maria J.
+    family-names: Molina
+    affiliation: University of Maryland
+  - given-names: Kyle J. C.
+    family-names: Hall
+    affiliation: University of Maryland
+  - given-names: Hannah
+    family-names: Bao
+    affiliation: University of Maryland
+  - given-names: Salil
+    family-names: Mahajan
+  - given-names: Nan
+    family-names: Rosenbloom
+  - given-names: John
+    family-names: Fasullo
+abstract: >-
+  What is encoded in the latent space of a multi-branch beta-variational
+  autoencoder trained on coupled tropical Pacific climate fields? To answer
+  this question, we train the model on sea surface temperature, ocean heat
+  content, and outgoing longwave radiation across the tropical Pacific, using
+  a 500-year preindustrial control simulation, and evaluate both
+  reconstruction skill and physical interpretability. The model generalizes
+  well, with only modest degradation from training to test performance, and
+  preserves the dominant basin-scale structure of all three fields.
+  Latent-space diagnostics show that variability is organized unevenly across
+  dimensions: sea surface temperature is concentrated in a smaller subset of
+  latent dimensions, whereas ocean heat content and outgoing longwave
+  radiation are more broadly distributed across multiple dimensions.
+  Comparisons with conventional tropical Pacific diagnostics further show
+  that several latent dimensions align with known El Nino and La Nina
+  variability, while others capture related coupled ocean-atmosphere
+  variability on decadal or longer timescales. Sensitivity experiments and
+  latent traversals identify dimensions associated with eastern-Pacific-like,
+  central-Pacific-like, coastal, subsurface-dominant, and
+  atmosphere-dominant variability.
+keywords:
+  - variational autoencoder
+  - tropical Pacific
+  - El Nino
+  - sea surface temperature
+  - ocean heat content
+  - outgoing longwave radiation
+  - machine learning
+  - climate variability
+  - latent space
+license: MIT
