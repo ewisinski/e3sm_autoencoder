@@ -12,19 +12,28 @@ authors:
     affiliation: University of Maryland
   - given-names: Maria J.
     family-names: Molina
+    email: mjmolina@umd.edu
     affiliation: University of Maryland
   - given-names: Kyle J. C.
     family-names: Hall
+    email: kylehall@umd.edu
     affiliation: University of Maryland
   - given-names: Hannah
     family-names: Bao
+    email: hbao@terpmail.umd.edu
     affiliation: University of Maryland
   - given-names: Salil
     family-names: Mahajan
+    email: mahajans@ornl.gov
+    affiliation: Oak Ridge National Laboratory
   - given-names: Nan
     family-names: Rosenbloom
+    email: nanr@ucar.edu
+    affiliation: U.S. NSF National Center for Atmospheric Research
   - given-names: John
     family-names: Fasullo
+    email: fasullo@ucar.edu
+    affiliation: U.S. NSF National Center for Atmospheric Research
 abstract: >-
   What is encoded in the latent space of a multi-branch beta-variational
   autoencoder trained on coupled tropical Pacific climate fields? To answer
@@ -39,20 +48,16 @@ abstract: >-
   latent dimensions, whereas ocean heat content and outgoing longwave
   radiation are more broadly distributed across multiple dimensions.
   Comparisons with conventional tropical Pacific diagnostics further show
-  that several latent dimensions align with known El Nino and La Nina
+  that several latent dimensions align with known El Niño and La Niña
   variability, while others capture related coupled ocean-atmosphere
   variability on decadal or longer timescales. Sensitivity experiments and
   latent traversals identify dimensions associated with eastern-Pacific-like,
   central-Pacific-like, coastal, subsurface-dominant, and
   atmosphere-dominant variability.
 keywords:
-  - variational autoencoder
-  - tropical Pacific
-  - El Nino
-  - sea surface temperature
-  - ocean heat content
-  - outgoing longwave radiation
+  - multi-branch variational autoencoder
+  - tropical Pacific variability
+  - El Niño
   - machine learning
-  - climate variability
   - latent space
 license: MIT
