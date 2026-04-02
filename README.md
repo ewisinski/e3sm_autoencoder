@@ -16,6 +16,22 @@ This GitHub repository serves as a software and data access point for the paper 
 - Jupyter notebook containing code for the $\beta$-VAE model architecture and training. The input data is located within the folder labeled 'data'. The various hyperparameters are outlined in Table 1 of the paper and can be manipulated to test various architectures.
 - Jupyter notebook for the $\beta$-VAE variance share per latent dimension. This code corresponds to Figure 3.
 
+*Data*
+The data for this project is stored within this directory. Data includes:
+- E3SMv2 piControl Model Specific data, including atmosphere and ocean files to access the latitude/longitude grid used. Additionally, the Oceanic Niño Index (ONI) was computed as a baseline comparison for the $\beta$-VAE model. ONI computation followed the parameters set by the National Oceanic and Atmospheric Administration (NOAA).
+- Latent representations, including the mean (z_mean), log variance (z_log_var), and sampling (z_sampling) layers from the bottleneck of the $\beta$-VAE.
+- NetCDF files of the scaled training and testing data for SST, OHC, and OLR.
+- Pkl files of the scalers used for each input variable. This is used when inverse transforming the data back into physical units.
+- Indx files that store the correct locations of the NaN values in each dataset, which is particularly important for oceanic reconstructions. This is used in the function to reconstruct the ocean and atmosphere grids.
+- Zipped reconstructions of Numpy arrays for training and testing data for each variable. This is used when evaluating the metrics of the $\beta$-VAE for performance.
+- Filtered ENSO events as defined by the derived E3SM ONI labels. This is used for finding the peak SST longitude.
+- Correlation data from a variety of variables within the E3SMv2 piControl.
+
+*Analysis Notebooks*
+- The analysis notebooks correspond to the results section of the paper. Each notebook is clearly labeled for the respective analysis.
+- Computed climate indices (e.g., PDO) from E3SMv2 piControl are included here.
+- Input variable preprocessing notebooks are included here as well. 
+
 ## CSV Data Source
 
 Some Juptyer notebooks leverage .csv data for SST, OHC, and OLR train/test scaled inputs. These files are too large to be stored in this repository, but can be found here: https://doi.org/10.5281/zenodo.19390030
