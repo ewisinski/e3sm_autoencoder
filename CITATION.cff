@@ -35,7 +35,7 @@ authors:
     email: fasullo@ucar.edu
     affiliation: U.S. NSF National Center for Atmospheric Research
 abstract: >-
-  What is encoded in the latent space of a multi-branch beta-variational
+  What is encoded in the latent space of a multi-branch $\beta$-variational
   autoencoder trained on coupled tropical Pacific climate fields? To answer
   this question, we train the model on sea surface temperature, ocean heat
   content, and outgoing longwave radiation across the tropical Pacific, using
@@ -53,7 +53,9 @@ abstract: >-
   variability on decadal or longer timescales. Sensitivity experiments and
   latent traversals identify dimensions associated with eastern-Pacific-like,
   central-Pacific-like, coastal, subsurface-dominant, and
-  atmosphere-dominant variability.
+  atmosphere-dominant variability. Together, these results show that the multi-
+  branch $\beta$-variational autoencoder yields a skillful and physically
+  informative reduced representation of coupled tropical Pacific variability.
 keywords:
   - multi-branch variational autoencoder
   - tropical Pacific variability
