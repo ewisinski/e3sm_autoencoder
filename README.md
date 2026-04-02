@@ -1,6 +1,6 @@
 # Multi-Branch $\beta$-Variational Autoencoder for Tropical Pacific Variability
 
-*Repository Authors: Emily Faith Wisinski and Maria J. Molina (University of Maryland, College Park)*
+*Repository Authors: Emily Faith Wisinski (University of Maryland, College Park) and Maria J. Molina (University of Maryland, College Park)*
 
 ## Table of Contents
 
