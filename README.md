@@ -6,6 +6,10 @@
 
 This Github repository serves as a data access point for the paper titled "What's in the latent space? Exploring coupled tropical Pacific variability within a Multi-branch $\beta$-Variational Autoencoder" by Wisinski et al. (2026). Below is a description of what is included within this repository and how to use it. Thanks for visiting!
 
+VAE
+- Jupyter notebook containing code for the $\beta$-VAE model architecture and training. The input data is located within the folder labeled 'data'. The various hyperparameters are outlined in Table 1 of the paper and can be manipulated to test various architectures.
+- Jupyter notebook for the $\beta$-VAE variance share per latent dimension. This code corresponds to Figure 3.
+
 ## Software and Acknowledgement
 
 We would like to acknowledge the use of the Derecho system (doi:10.5065/qx9a-pg09) supported by the NSF National Center for Atmospheric Research (NCAR) at the NSF NCAR-Wyoming Supercomputing Center, sponsored by the National Science Foundation and the State of Wyoming.
