@@ -16,6 +16,10 @@ This Github repository serves as a data access point for the paper titled "What'
 - Jupyter notebook containing code for the $\beta$-VAE model architecture and training. The input data is located within the folder labeled 'data'. The various hyperparameters are outlined in Table 1 of the paper and can be manipulated to test various architectures.
 - Jupyter notebook for the $\beta$-VAE variance share per latent dimension. This code corresponds to Figure 3.
 
+## CSV Data Source
+
+Some Juptyer notebooks leverage .csv data for SST, OHC, and OLR train/test scaled inputs. These files are too large to be stored in this repository, but can be found here: https://doi.org/10.5281/zenodo.19390030
+
 ## Software and Acknowledgement
 
 We would like to acknowledge the use of the Derecho system (doi:10.5065/qx9a-pg09) supported by the NSF National Center for Atmospheric Research (NCAR) at the NSF NCAR-Wyoming Supercomputing Center, sponsored by the National Science Foundation and the State of Wyoming.
