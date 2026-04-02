@@ -17,6 +17,7 @@ This GitHub repository serves as a software and data access point for the paper 
 - Jupyter notebook for the $\beta$-VAE variance share per latent dimension. This code corresponds to Figure 3.
 
 *Data*
+
 The data for this project is stored within this directory. Data includes:
 - E3SMv2 piControl Model Specific data, including atmosphere and ocean files to access the latitude/longitude grid used. Additionally, the Oceanic Niño Index (ONI) was computed as a baseline comparison for the $\beta$-VAE model. ONI computation followed the parameters set by the National Oceanic and Atmospheric Administration (NOAA).
 - Latent representations, including the mean (z_mean), log variance (z_log_var), and sampling (z_sampling) layers from the bottleneck of the $\beta$-VAE.
