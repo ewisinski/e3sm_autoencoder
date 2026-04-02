@@ -4,7 +4,7 @@
 
 ## Table of Contents
 
-This Github repository serves as a data access point for the paper titled "What's in the latent space? Exploring coupled tropical Pacific variability within a Multi-branch $\beta$-Variational Autoencoder" by Wisinski et al. (2026). Below is a description of what is included within each folder in the repository, and a short description for how to use it. Thanks for visiting!
+This GitHub repository serves as a software and data access point for the paper titled "What's in the latent space? Exploring coupled tropical Pacific variability within a Multi-branch $\beta$-Variational Autoencoder" by Wisinski et al. (2026). Below is a description of what is included within each folder in the repository, and a short description for how to use it. Thanks for visiting!
 
 *Figures*
 - This folder contains all of the figures included in the current version of the paper. There are 16 figures in the main body of the text and 1 figure in the Appendix. The figures are clearly labeled and include the date they were created.
