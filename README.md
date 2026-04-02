@@ -2,6 +2,10 @@
 
 *Repository Authors: Emily Faith Wisinski and Maria J. Molina (University of Maryland, College Park)*
 
+## Table of Contents
+
+This Github repository serves as a data access point for the paper titled "What's in the latent space? Exploring coupled tropical Pacific variability within a Multi-branch $\beta$-Variational Autoencoder." Below is a description of what is included within this repository and how to use it. Thanks for visiting!
+
 ## Software and Acknowledgement
 
 We would like to acknowledge the use of the Derecho system (doi:10.5065/qx9a-pg09) supported by the NSF National Center for Atmospheric Research (NCAR) at the NSF NCAR-Wyoming Supercomputing Center, sponsored by the National Science Foundation and the State of Wyoming.
